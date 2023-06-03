@@ -1,0 +1,170 @@
+body {
+  margin: 0;
+  font-size: 16px;
+  line-height: 20px;
+  background-image: url(../img/sky.jpg);
+}
+.container {
+  display: flex;
+  margin: 40px 0;
+  width: 900px;
+}
+.categories,
+.products,
+.details {
+  display: block;
+  width: 270px;
+  min-height: 100px;
+  border: 2px solid darkblue;
+}
+
+div {
+  display: block;
+  width: 245px;
+  min-height: 30px;
+
+  margin: 10px;
+  text-align: center;
+  font-weight: 600;
+  padding-top: 5px;
+  background-color: blanchedalmond;
+}
+
+button:hover {
+  color: darkturquoise;
+}
+#mainForm {
+  margin-left: 50px;
+  padding: 5px 30px 5px;
+  width: 300px;
+  min-height: 400px;
+  border: 2px solid darkblue;
+  display: none;
+  font-size: 16px;
+  line-height: 10px;
+  position: absolute;
+  top: 0;
+  left: 80px;
+  justify-content: center;
+  align-items: center;
+  background-color: darkcyan;
+  display: none;
+}
+.button {
+  width: 100px;
+  height: 30px;
+  background-color: dodgerblue;
+  color: blanchedalmond;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 40px;
+}
+
+#output {
+  padding: 5px 10px 5px;
+  width: 300px;
+  min-height: 100px;
+  margin-left: 500px;
+  border-radius: 10px;
+  display: none;
+  padding: 5px 0 20px;
+  color: darkblue;
+  background-color: aliceblue;
+}
+.but {
+  margin-top: 20px;
+  width: 200px;
+  height: 30px;
+  margin-left: 30px;
+  border-radius: 10px;
+  background-color: cornflowerblue;
+  border: 2px solid darkblue;
+}
+#storyOrder {
+  padding: 5px 10px 5px;
+  width: 300px;
+  min-height: 100px;
+  border: 2px solid darkblue;
+  display: none;
+  background-color: aliceblue;
+}
+#allOrder {
+  padding: 5px 10px 5px;
+  width: 300px;
+  min-height: 100px;
+  border: 2px solid darkblue;
+  display: none;
+  background-color: aliceblue;
+}
+#save {
+  margin-top: 10px;
+  width: 200px;
+  height: 30px;
+  margin-left: 100px;
+  border-radius: 10px;
+  background-color: cornflowerblue;
+  border: 2px solid darkblue;
+  display: none;
+}
+#save:hover {
+  background-color: blue;
+}
+#outputN {
+  padding: 5px 10px 5px;
+  width: 300px;
+  min-height: 100px;
+  border: 2px solid darkblue;
+  margin-left: 100px;
+  background-color: aliceblue;
+  display: none;
+  margin-top: -200px;
+}
+.butn {
+  width: 200px;
+  height: 30px;
+  margin-left: 650px;
+  border-radius: 10px;
+  background-color: cornflowerblue;
+  border: 2px solid darkblue;
+  margin-top: -30px;
+}
+.butn:hover {
+  background-color: aqua;
+}
+.list {
+  width: 320px;
+  background-color: wheat;
+  border: 2px solid darkblue;
+}
+.fullList {
+  width: 320px;
+  background-color: wheat;
+  border: 2px solid darkcyan;
+  display: none;
+}
+.back {
+  margin-top: 40px;
+  width: 200px;
+  height: 30px;
+  margin-top: -45px;
+  margin-left: 340px;
+  border-radius: 10px;
+  background-color: cornflowerblue;
+  border: 2px solid darkblue;
+}
+.back:hover {
+  background-color: aqua;
+}
+.knob {
+  width: 100px;
+  height: 30px;
+  background-color: cornflowerblue;
+  border: 2px solid darkblue;
+  margin-left: 20px;
+  font-size: 14px;
+}
+.knob:hover {
+  background-color: aqua;
+  color: black;
+}
